@@ -42,5 +42,9 @@
     top: rem(-100);
     left: rem(-80);
   }
+
+  &__title {
+    margin-top: rem(29);
+  }
 }
 </style>
