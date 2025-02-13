@@ -23,6 +23,7 @@
   color: var(--color-accent);
   background-color: var(--color-background);
   border-radius: rem(35) 0 0 rem(35);
+  max-width: rem(1100);
   width: 100%;
   position: relative;
   overflow: hidden;

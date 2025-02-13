@@ -82,7 +82,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    padding: rem(80) rem(180) rem(0) rem(200);
+    padding: rem(80) rem(180) rem(50) rem(190);
   }
 }
 
@@ -137,6 +137,7 @@
   }
 
   &__button {
+    align-self: center;
     background-color: var(--color-accent);
     font-size: rem(18);
     font-weight: 800;
@@ -161,7 +162,6 @@
     display: flex;
     justify-content: center;
     column-gap: rem(10);
-    padding-bottom: rem(50);
   }
 }
 </style>
