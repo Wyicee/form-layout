@@ -23,7 +23,6 @@
   color: var(--color-accent);
   background-color: var(--color-background);
   border-radius: rem(35) 0 0 rem(35);
-  max-width: rem(1100);
   width: 100%;
   position: relative;
   overflow: hidden;
@@ -33,7 +32,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: rem(80) rem(180) rem(80) rem(120);
+    padding: rem(80) rem(120) rem(80) rem(120);
   }
 
   .top-left-planet::after {

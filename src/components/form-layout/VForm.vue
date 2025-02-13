@@ -82,7 +82,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    padding: rem(80) rem(160) rem(0) rem(160);
+    padding: rem(80) rem(180) rem(0) rem(200);
   }
 }
 
