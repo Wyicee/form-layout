@@ -1,0 +1,23 @@
+@use 'helpers/index' as *;
+
+:root {
+  --color-light: #FFFFFF;
+
+  --color-dark: #525252;
+  --color-grey: #828282;
+
+  --color-accent: #73114B;
+
+  --color-background: #FFE6C9;
+
+  --shadow: 0 0 #{rem(45)} 0 #e1c2a8;
+  --border: #{rem(10)} solid var(--color-light);
+
+  --input-stroke: #DED2D9;
+  --input-placeholder: #E0E0E0;
+  --input-border: rem(1) solid var(--input-stroke);
+
+  --font-family-base: 'Nunito Sans', sans-serif;
+
+  --transition-duration: 0.2s;
+}

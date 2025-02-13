@@ -1,0 +1,48 @@
+@use 'helpers/index' as *;
+
+body {
+  font-size: rem(16);
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-background);
+  font-family: var(--font-family-base);
+  letter-spacing: -0.03em;
+  color: var(--color-dark);
+}
+
+h1, .h1 {
+  font-size: rem(40);
+  font-weight: 800;
+}
+
+h2, .h2 {
+  font-size: rem(36);
+  font-weight: 700;
+}
+
+h3, .h3 {
+  font-size: rem(25);
+  font-weight: 600;
+}
+
+a,
+button,
+label,
+input,
+textarea,
+select,
+svg * {
+  transition-duration: var(--transition-duration);
+}
+
+a {
+  color: var(--color-accent);
+
+  @include hover {
+    color: var(--color-grey);
+  }
+
+  &[class] {
+    text-decoration: none;
+  }
+}
